@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #060530;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #0db6e5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+div.main-container
+{
+    display: flex;
+}
+.container-left
+{
+    width: 50%;  
+    height: 100px;
+    display: flex;
+    flex-direction: column; 
+    background: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    min-height: 93.4vh;
+    box-shadow: 1px 0 1px 0 #03081d;
+    z-index: 3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-right
+{
+    width: 60%;
+    height: 100px;
+    min-height: 93.4vh;
+    color: #000;
+    padding: 40px 60px 40px 80px;
+    overflow-y: scroll;
+    background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+}
+.button-wrapper
+{
+    background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+    padding: 20px 10px;
+    box-shadow: 0px 1px 1px 0 #000000;
+}
+.btn-add
+{
+    background: #1b00c8;
+    padding: 8px 12px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.search
+{
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 8px 12px;
+    margin-left: 10px
+}
+#welcome
+{
+    margin-top:20px;
+    display: block;
+}
+#welcome h1
+{
+    font-size: 40px;
+}
+.text
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+form input
+{
+    width:40%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    padding: 8px 12px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(107.2deg, rgb(18, 38, 170) 12.9%, rgb(0, 187, 180) 77.6%, rgb(255, 255, 255) 125.9%);
+    
+}
+input
+{
+    max-width: 100%;
+}
+form textarea
+{
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    padding: 8px 12px;
+    margin-top: 15px;
+    color: rgb(30, 7, 60);
+}
+.btn-submit
+{
+    width: 100%;
+    text-align: right;
+}
+.btn-submit button
+{
+    font-size:20px;
+    padding: 8px 12px;  
+    margin-top: 10px;
+    border-radius: 5px;
+    background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-submit button:hover
+{
+    background: radial-gradient(circle at 50.4% 50.5%, rgb(251, 32, 86) 0%, rgb(135, 2, 35) 90%);
+}
+.questions
+{
+    overflow-y: scroll;
+    background: radial-gradient(circle at 10% 20%, rgb(5, 232, 186) 0%, rgb(8, 126, 225) 90%);
+}
+.que-item
+{
+    padding: 15px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    cursor:pointer;
+}
+#description
+{
+    display: none;
+}
+.que-content
+{
+    background: linear-gradient(to top, #6d8da7 0%, #79c2b3 100%);
+    padding: 10px;
+    color: #000000;
+    margin-top:5px;
+}
+.que-content h2
+{
+    font-size:1.3em;
+}
+p.que-text
+{
+    margin: 5px 0;
+}
+.resolve
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.resolve button
+{
+    background: #1a0996;
+    padding: 8px 12px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.responses
+{
+    background: linear-gradient(-60deg, #ff5858 0%, #e08181 100%);
+    margin-top:18px;
+}
+.response
+{
+    padding: 15px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+.response-form
+{
+    margin-top:40px;
+}
+.response-form form input
+{
+    font-size: 15px;
+    padding: 6px 10px;
+    margin-top: 15px;
+}
+
+.response-form form textarea
+{
+    font-size: 16px;
+    padding: 6px 10px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.response-form .btn-submit button
+{
+    font-size:14px; 
+    margin-top: 10px;
+    background: #2005a5;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+.yellow
+{
+    background: pink;
+}
+.icons i
+{
+    padding: 0 3px;
+}
+.fa
+{
+    color: #000;
+}
+.fa:hover, .fa:active
+{
+    color:palevioletred;
+}
+i.active
+{
+    color: #c80000;
+}
+.que-item .que-title, .que-item .que-text
+{
+    padding-right: 30px;
+}
+.que-item .fav
+{
+    float: right;
+    position: relative;
+    bottom: 34px;    
+}
+
+footer {
+    height: 40px;
+    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: large;
+    font-weight: bold;
+}
